@@ -6,4 +6,10 @@ h1 {
 .box{
     max-height: 120px;
     color: #000;
+    border: 1px solid #000;
+    display: flex /*to make the box a flex container*/;
+    flex: 1 1 100px; /*to make the box flexible and responsive*/;
+    flex-direction: column; /*to arrange the content vertically*/;
+    align-items: center; /*to center the content horizontally*/;
+    margin: 10px; /*to add some space around the box*/;
 }
