@@ -52,6 +52,6 @@ h1 {
 }
 
 .box5 {
-    background: #45;
+    background: #457b9d;
     order: 4; /*to set the order of the box in the flex container*/
 }
