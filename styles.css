@@ -33,3 +33,9 @@ h1 {
     order: 1; /*to set the order of the box in the flex container*/
     flex-grow: 1; /*to make the box grow to fill the available space*/;
 }
+
+.box2 {
+    background: #f4a261;
+    order: 0; /*to set the order of the box in the flex container*/
+
+}
