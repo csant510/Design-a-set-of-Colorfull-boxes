@@ -55,3 +55,9 @@ h1 {
     background: #457b9d;
     order: 4; /*to set the order of the box in the flex container*/
 }
+
+.box6 {
+    background: #3f51b5;
+    order: 5;/*to set the order of the box in the flex container*/
+    flex-grow: 1; /*to make the box grow to fill the available space*/;
+}
