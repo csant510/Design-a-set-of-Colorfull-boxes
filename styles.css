@@ -26,3 +26,10 @@ h1 {
     padding: 10px; /*to add some space inside the container*/;
     margin: 20px auto; /*to center the container horizontally*/;
     align-content: space-evenly; /*to align the boxes to the bottom of the container*/;
+}
+
+.box1 {
+    background: #f16e79;
+    order: 1; /*to set the order of the box in the flex container*/
+    flex-grow: 1; /*to make the box grow to fill the available space*/;
+}
