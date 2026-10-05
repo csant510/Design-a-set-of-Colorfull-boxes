@@ -8,7 +8,7 @@ h1 {
     color: #000;
     border: 1px solid #000;
     display: flex /*to make the box a flex container*/;
-    flex: 1 1 100px; /*to make the box flexible and responsive*/;
+    flex: 0 0 150px; /*to make the box flexible and responsive*/;
     flex-direction: column; /*to arrange the content vertically*/;
     align-items: center; /*to center the content horizontally*/;
     margin: 10px; /*to add some space around the box*/;
@@ -25,4 +25,4 @@ h1 {
     height: 600px;
     padding: 10px; /*to add some space inside the container*/;
     margin: 20px auto; /*to center the container horizontally*/;
-    align-content: start; /*to align the boxes to the start of the container*/;
+    align-content: space-evenly; /*to align the boxes to the bottom of the container*/;
