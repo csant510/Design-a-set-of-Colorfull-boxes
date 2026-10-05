@@ -12,4 +12,17 @@ h1 {
     flex-direction: column; /*to arrange the content vertically*/;
     align-items: center; /*to center the content horizontally*/;
     margin: 10px; /*to add some space around the box*/;
+    font-weight: bold; /*to make the text bold*/;
+    font-size: 1.125rem; /*to make the text larger*/;
+    border-radius: 5px; /*to round the corners of the box*/;
+    order:0;/*to set the order of the box in the flex container*/;
 }
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap; /*to allow the boxes to wrap to the next line if needed*/; 
+    width: 70%; /*to make the container take the full width of the parent*/;
+    height: 600px;
+    padding: 10px; /*to add some space inside the container*/;
+    margin: 20px auto; /*to center the container horizontally*/;
+    align-content: start; /*to align the boxes to the start of the container*/;
