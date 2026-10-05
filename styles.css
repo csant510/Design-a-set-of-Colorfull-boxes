@@ -39,3 +39,9 @@ h1 {
     order: 0; /*to set the order of the box in the flex container*/
 
 }
+
+.box3 {
+    background: #ffd166;
+    order: 2; /*to set the order of the box in the flex container*/
+    flex-shrink:3;
+}
